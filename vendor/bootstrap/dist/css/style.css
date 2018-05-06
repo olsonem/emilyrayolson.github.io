@@ -2,11 +2,20 @@
     transition: transform .2s;
     width: auto;
     height: 200px;
-    margin: 0 auto;
+    margin:20px auto;
+
 }
 
 .zoom:hover {
     -ms-transform: scale(3); /* IE 9 */
     -webkit-transform: scale(3); /* Safari 3-8 */
     transform: scale(3); 
+}
+.image-container {
+    margin-top:60px;
+    margin-bottom:60px;
+
+}
+h3 {
+    color: orangered
 }
