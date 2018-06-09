@@ -1,18 +1,18 @@
 .zoom {
     transition: transform .2s;
-    width: auto;
-    height: 200px;
+    width: 280px;
+    height: auto;
     margin:20px auto;
 
 }
 
 .zoom:hover {
     z-index:100;
-    -ms-transform: scale(3); /* IE 9 */
-    -webkit-transform: scale(3); /* Safari 3-8 */
-    transform: scale(3); 
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2); 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
 
     
     .zoom:hover {
