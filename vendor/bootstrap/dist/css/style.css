@@ -36,5 +36,6 @@ h3 {
 .mynavbar {
     background-color: white;
     padding-top: 0%;
-    padding-bottom: 0%
+    padding-bottom: 0%;
+    border-bottom-style: groove;
 }
